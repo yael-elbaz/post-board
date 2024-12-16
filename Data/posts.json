@@ -1,20 +1,20 @@
 [
-    {
-        "id": 1,
-        "title": "Water Fight Taipei",
-        "content": "Thank you for coming to the Water Fight event in Taipei!",
-        "author": "Bob",
-        "date": "2024-06-15",
-        "place": "New York",
-        "category": "Events"
-    },
-    {
-        "id": 2,
-        "title": "Beach House for Rent",
-        "content": "Perfect place for a relaxing vacation!",
-        "author": "Alice",
-        "date": "2024-06-10",
-        "place": "Miami",
-        "category": "Rent"
-    }
+  {
+    "Id": 1,
+    "Title": "Water Fight Taipei",
+    "Content": "Thank you for coming to the Water Fight event in Taipei!",
+    "Author": "Bob",
+    "Date": "2024-06-15",
+    "Place": "New York",
+    "Category": "Events"
+  },
+  {
+    "Id": 2,
+    "Title": "string",
+    "Content": "string",
+    "Author": "string",
+    "Date": "string",
+    "Place": "jerusalem",
+    "Category": "string"
+  }
 ]

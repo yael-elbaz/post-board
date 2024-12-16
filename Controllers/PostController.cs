@@ -70,6 +70,21 @@ namespace WebApplication2.Controllers
             System.IO.File.WriteAllText(_filePath, json);
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult DeletePost(int id)
+        {
+            var posts = ReadPostsFromFile();
+
+            var post = posts.FirstOrDefault(p => p.Id == id);
+            if (post == null)
+                return NotFound("Post not found");
+
+            posts.Remove(post); // Remove the post from the list
+            WritePostsToFile(posts); // Update the JSON file
+
+            return Ok(new { message = "Post deleted successfully", post });
+        }
+
     }
 
    
