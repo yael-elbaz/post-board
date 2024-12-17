@@ -46,7 +46,6 @@ namespace WebApplication2.Controllers
             post.Title = updatedPost.Title;
             post.Content = updatedPost.Content;
             post.Author = updatedPost.Author;
-            post.Date = updatedPost.Date;
             post.Place = updatedPost.Place;
             post.Category = updatedPost.Category;
 
